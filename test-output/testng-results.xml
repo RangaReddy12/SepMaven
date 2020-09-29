@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[LOgin success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Password cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[LOgin success]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36161" started-at="2020-09-21T14:40:40Z" finished-at="2020-09-21T14:41:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36161" started-at="2020-09-21T14:40:40Z" finished-at="2020-09-21T14:41:16Z">
+      <class name="Resource.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Resource.AppTest@8646db9]" name="setUp" is-config="true" duration-ms="5617" started-at="2020-09-21T14:40:40Z" finished-at="2020-09-21T14:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:Resource.AppTest@8646db9]" name="verifyLogin" duration-ms="27924" started-at="2020-09-21T14:40:46Z" finished-at="2020-09-21T14:41:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOgin success]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Password cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[LOgin success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Resource.AppTest@8646db9]" name="tearDown" is-config="true" duration-ms="2575" started-at="2020-09-21T14:41:14Z" finished-at="2020-09-21T14:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Resource.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

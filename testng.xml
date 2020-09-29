@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Frameworks">
+  <test thread-count="5" name="DataDriven">
+    <classes>
+            <class name="Resource.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="PageObject">
+    <classes>
+      <class name="Resource.TestScript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
